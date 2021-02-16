@@ -69,7 +69,8 @@ body {
     padding: 5px;
 }
 
-.converter-input {
+.converter-input,
+.converter-output {
     min-height: 60px;
     border-radius: 30px;
     font-size: 16px;
