@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252.829" height="162.399" viewBox="0 0 252.829 162.399">
+  <g id="Group_80" data-name="Group 80" transform="translate(-351.225 -2249.166)" opacity="0.8">
+    <g id="Group_78" data-name="Group 78">
+      <g id="Group_76" data-name="Group 76">
+        <g id="Group_75" data-name="Group 75" transform="translate(2771.64 1816.64) rotate(90)">
+          <line id="Line_10" data-name="Line 10" y2="243" transform="translate(477.5 2172.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+          <path id="Path_215" data-name="Path 215" d="M0,0V82.178" transform="translate(437.936 2342.446) rotate(-28)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+          <path id="Path_216" data-name="Path 216" d="M0,0V82.178" transform="translate(517.516 2342.446) rotate(28)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+        </g>
+      </g>
+      <g id="Group_77" data-name="Group 77" transform="translate(2771.64 1816.64) rotate(90)">
+        <path id="Path_215-2" data-name="Path 215" d="M0,0V82.178" transform="translate(437.936 2342.446) rotate(-28)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+        <path id="Path_216-2" data-name="Path 216" d="M0,0V82.178" transform="translate(517.516 2342.446) rotate(28)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+      </g>
+    </g>
+    <g id="Group_79" data-name="Group 79" transform="translate(356.14 2326.576)">
+      <g id="Group_76-2" data-name="Group 76">
+        <g id="Group_75-2" data-name="Group 75" transform="translate(243 0) rotate(90)">
+          <line id="Line_10-2" data-name="Line 10" y1="243" transform="translate(39.564)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+          <path id="Path_215-3" data-name="Path 215" d="M0,82.178V0" transform="matrix(0.883, 0.469, -0.469, 0.883, 38.58, 0.495)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+          <path id="Path_216-3" data-name="Path 216" d="M0,82.178V0" transform="matrix(0.883, -0.469, 0.469, 0.883, 41, 0.495)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+        </g>
+      </g>
+      <g id="Group_77-2" data-name="Group 77" transform="translate(242.505 0) rotate(90)">
+        <path id="Path_215-4" data-name="Path 215" d="M0,82.178V0" transform="matrix(0.883, 0.469, -0.469, 0.883, 38.58, 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+        <path id="Path_216-4" data-name="Path 216" d="M0,82.178V0" transform="matrix(0.883, -0.469, 0.469, 0.883, 41, 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="8"/>
+      </g>
+    </g>
+  </g>
+</svg>
