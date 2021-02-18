@@ -13,16 +13,22 @@ let passwordStrength;
 const passwordChecker = (password) => {
     passwordStrength = 0;
     passwordRegs.forEach((regex)=>{
-        if(regex.test(password)){
+        if (regex.test(password)){
             passwordStrength++;
         };
     });
     registrationProgress.value = passwordStrength;
 }
 
-registrationPassword.addEventListener('keyup', ()=>{passwordChecker(event.target.value)})
-signUpButton.addEventListener('click', () => {
-    if(registrationPassword.value && registrationLogin.value){
-        alert("Zarejestrowano nowego użytkownika");
+const buttonEnable = () =>{
+    signUpButton.disabled = true;
+    if (registrationPassword.value && registrationLogin.value){
+        signUpButton.disabled = false;
     }
+}
+
+registrationPassword.addEventListener('keyup', () => {passwordChecker(event.target.value), buttonEnable()});
+registrationLogin.addEventListener('keyup', () => {buttonEnable()});
+signUpButton.addEventListener('click', () => {
+        alert("Zarejestrowano nowego użytkownika");
 })
