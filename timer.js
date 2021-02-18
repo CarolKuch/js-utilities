@@ -1,6 +1,6 @@
 const timerButton = document.querySelector('.timer-button');
-let minutesCount = document.getElementById('minutes');
-let secondsCount = document.getElementById('seconds');
+const minutesCount = document.getElementById('minutes');
+const secondsCount = document.getElementById('seconds');
 let timerInterval;
 
 let updateSecondsValue = (e) => {

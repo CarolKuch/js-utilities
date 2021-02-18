@@ -114,9 +114,3 @@ body {
     font-size: 16px;
     padding: 5px 10px;
 }
-
-.password-progress {
-    color: red;
-    width: 50%;
-    height: 16px;
-}

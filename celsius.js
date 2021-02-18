@@ -35,4 +35,4 @@ const switchConverter = () => {
 converterOutput.disabled = true;
 
 converterToggler.addEventListener('click', switchConverter);
-converterInput.addEventListener('change', outPutHandler);
+converterInput.addEventListener('keyup', outPutHandler);
