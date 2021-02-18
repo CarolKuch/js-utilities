@@ -46,7 +46,8 @@ body {
     float: right;
 }
 
-.newsletter-logo {
+.newsletter-logo,
+.registration-logo {
     height: 50px;
     width: 50px;
     padding: 10px;
@@ -84,4 +85,38 @@ body {
 .right {
     float: right;
     margin-right: 80px;
+}
+
+.registration {
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid gray;
+}
+
+.registration-logo-containter {
+    padding-top: 20px;
+}
+
+.registration-input {
+    height: 30px;
+    min-width: 200px;
+    border: 2px solid gray;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+.sign-up-button {
+    background-color: gray;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.password-progress {
+    color: red;
+    width: 50%;
+    height: 16px;
 }

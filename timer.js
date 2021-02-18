@@ -35,7 +35,6 @@ let timeChanger = () => {
         inputTrigger(false);
     }else{
         document.getElementById('seconds').value = --secondsCount.value;
-
     }
 }
 

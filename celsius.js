@@ -6,27 +6,33 @@ const scale2 = document.querySelector('.converter-scale-2');
 let converterCounter = 0;
 
 const outPutHandler = () => {
-    if ( converterCounter = 0){
-        converterOutput.value = (converterInput.value*1.8 + 32).toFixed(2);
+    if (converterCounter === 1){
+        converterOutput.value = (5/9 *(converterInput.value - 32));
+        
     }
     else{
-        converterOutput.value = ((converterInput.value-32)/1.8).toFixed(2);
-    }
+        converterOutput.value = 32 + 9/5*converterInput.value;
+
+    } 
+    console.log(converterCounter);
 
 }
 
 const switchConverter = () => {
-    if (converterCounter === 0 ){
-    scale1.className = "right";
-    scale2.className = "left";
-    converterCounter = 1;
-    }else{
+    if (converterCounter === 1 ){
     scale1.className = "left";
     scale2.className = "right";
     converterCounter = 0;
+    outPutHandler();
+    }else{
+    converterCounter = 1;
+    scale1.className = "right";
+    scale2.className = "left";
+    outPutHandler();
     }
 }
 
 converterOutput.disabled = true;
-converterInput.addEventListener('change', outPutHandler);
+
 converterToggler.addEventListener('click', switchConverter);
+converterInput.addEventListener('change', outPutHandler);
