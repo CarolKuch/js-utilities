@@ -79,7 +79,33 @@
                 <p><label for="registration-password">Siła hasła:</label><progress value = "0" max = "3" class="registration-progress"></progress></p>
                 <input type="submit" class="sign-up-button" value="Sign up" disabled = "true" />
             </div>
-            <div class="to-do">to-do</div>
+            <div class="to-do">
+                <h2>To do list</h2>
+                <div>
+                    <input placeholder="Kupić sok pomarańczowy" class="to-do-text" type="text">
+                    <button class="to-do-add-button">Dodaj</button>
+                </div> 
+                <div id="to-do-root">
+                    <label class="to-do-root-element">
+                        <span class="to-do-root-element-text">Wynieść śmieci</span>
+                        <input type="checkbox" class="to-do-list-checkbox">
+                    </label>
+                    <label class="to-do-root-element">
+                        <span class="to-do-root-element-text">Zrobić zakupy</span>
+                        <input type="checkbox" class="to-do-list-checkbox">
+                    </label>
+                    <label class="to-do-root-element">
+                        <span class="to-do-root-element-text">Naprawić kran</span>
+                        <input type="checkbox" class="to-do-list-checkbox">
+                    </label>
+                </div>
+                <div class="to-do-realized">
+                    <label>
+                        <input type="checkbox">
+                        Pokaż zrealizowane
+                    </label>
+                </div>
+            </div>
             <div class="exchange-calculator">exchange-calculator</div>
             <div class="calculator">calculator</div>
         </main>
@@ -87,5 +113,6 @@
         <script src="newsletter.js"></script>
         <script src="celsius.js"></script>
         <script src="registration.js"></script>
+        <script src="to-do-list.js"></script>
     </body>
 </html>

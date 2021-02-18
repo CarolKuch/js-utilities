@@ -2,36 +2,42 @@ body {
     text-align: center;
 }
 
+.timer,
+.newsletter,
+.converter,
+.registration,
+.to-do,
 .timer {
-    width: 600px;
-    height: 150px;
     background-color: lightgray;
     text-align: center;
     align-self: center;
     margin: 20px auto;
     border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 16px;
+    -webkit-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    padding: 10px;
 }
 
-.timer-input,
-.timer-button {
-    text-align: center;
-    border: 1px solid gray;
-    border-radius: 3px;
+.timer {
+    width: 600px;
+    height: 150px;
+}
+
+.timer-input {
     height: 30px;
-    font-size: 16px;
 }
 
 .timer-button {
     width: 100px;
 }
 
-.newsletter {
+.newsletter,
+.to-do {
     width: 500px;
     height: 250px;
-    background-color: lightgray;
-    text-align: center;
-    margin: 20px auto;
-    border: 1px solid gray;
 }
 
 .newsletter-description {
@@ -51,17 +57,20 @@ body {
     height: 50px;
     width: 50px;
     padding: 10px;
-    border: 2px solid gray;
+    border: 1px solid gray;
+    border-radius: 3px;
 }
 
 .converter {
     width: 500px;
     height: 200px;
-    background-color: lightgray;
-    text-align: center;
-    padding-top: 20px;
-    margin: 20px auto;
-    border: 1px solid gray;
+
+}
+
+.converter-toggler {
+    background-color: #3463AD;
+    cursor: pointer;
+
 }
 
 .converter-toggler-img {
@@ -72,6 +81,7 @@ body {
 
 .converter-input,
 .converter-output {
+    border: 1px solid gray;
     min-height: 60px;
     border-radius: 30px;
     font-size: 16px;
@@ -94,6 +104,7 @@ body {
     text-align: center;
     margin: 20px auto;
     border: 1px solid gray;
+    border-radius: 10px;
 }
 
 .registration-logo-containter {
@@ -109,8 +120,50 @@ body {
     margin: 10px auto;
 }
 
-.sign-up-button {
-    background-color: gray;
-    font-size: 16px;
+.sign-up-button,
+.newsletter-button,
+.timer-button,
+.to-do-add-button {
+    background-color: #3463AD;
     padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+}
+
+input {
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    color: black;
+    -webkit-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.sign-up-button:disabled {
+    cursor: default;
+    color: lightgray;
+    opacity: 0.65;
+}
+
+.to-do-text {
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#to-do-root {
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.to-do-root-element {
+    display: block;
+}
+
+.to-do-realized {
+    font-size: 18px;
+    align-self: bottom;
 }
