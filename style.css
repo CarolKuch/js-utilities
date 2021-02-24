@@ -184,6 +184,11 @@ input {
     border: 1px solid lightgray;
 }
 
+.to-do-item-delete-button {
+    width: 15px;
+    height: 15px;
+    float: right;
+}
 
 .to-do-realized {
     font-size: 18px;
