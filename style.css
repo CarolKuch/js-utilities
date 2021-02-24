@@ -168,6 +168,7 @@ input {
     background-color: white;
     border-radius: 3px;
     padding: 10px;
+    overflow: auto;
 }
 
 .to-do-text {
