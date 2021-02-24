@@ -4,7 +4,7 @@ const newsletterInputName = document.querySelector('.newsletter-input-text');
 const reg = /(.)+@(.)+\.([A-Z])+/i;
 
 newsletterButton.addEventListener('click', () => {
-    if ((reg.test(newsletterInputEmail.value))&& newsletterInputName.value ){
+    if ((reg.test(newsletterInputEmail.value)) && newsletterInputName.value ){
         alert("Subskrypcja została wysłana");
     }
     else if (reg.test(newsletterInputEmail.value)===false){

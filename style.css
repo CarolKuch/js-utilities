@@ -34,8 +34,7 @@ body {
     width: 100px;
 }
 
-.newsletter,
-.to-do {
+.newsletter {
     width: 500px;
     height: 250px;
 }
@@ -70,7 +69,6 @@ body {
 .converter-toggler {
     background-color: #3463AD;
     cursor: pointer;
-
 }
 
 .converter-toggler-img {
@@ -130,6 +128,14 @@ body {
     color: white;
 }
 
+.sign-up-button:hover,
+.newsletter-button:hover,
+.timer-button:hover,
+.to-do-add-button:hover,
+.converter-toggler:hover {
+    background-color: #006cd7;
+}
+
 input {
     letter-spacing: 0.1rem;
     font-size: 14px;
@@ -140,28 +146,43 @@ input {
     cursor: pointer;
 }
 
-.sign-up-button:disabled {
+.sign-up-button:disabled,
+.to-do-add-button:disabled {
     cursor: default;
     color: lightgray;
     opacity: 0.65;
 }
 
+.sign-up-button:disabled:hover,
+.to-do-add-button:disabled:hover {
+    background-color: #3463AD;
+}
+
+.to-do {
+    width: 400px;
+}
+
+.to-do-ul {
+    height: 200px;
+    text-align: left;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+}
+
 .to-do-text {
-    width: 70%;
+    width: 60%;
     padding: 5px 10px;
     font-size: 16px;
 }
 
-#to-do-root {
-    width: 100%;
-    min-height: 100px;
-    text-align: center;
-    padding: 20px 5px;
+.to-do-ul li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid lightgray;
 }
 
-.to-do-root-element {
-    display: block;
-}
 
 .to-do-realized {
     font-size: 18px;

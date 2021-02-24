@@ -13,9 +13,7 @@ const outPutHandler = () => {
     else{
         converterOutput.value = 32 + 9/5*converterInput.value;
 
-    } 
-    console.log(converterCounter);
-
+    }
 }
 
 const switchConverter = () => {
